@@ -15,10 +15,6 @@ public class Product {
         this.warranty = warranty;
     }
 
-    public Product() {
-        return;
-    }
-
     @Override
     public String toString() {
         return "Product { " + " name:" + name + ", type: " + type + ", place: " + place + ", warranty: " + warranty + " }";
